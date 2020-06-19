@@ -1,2 +1,3 @@
-# Frontend-componentes-lib
-React Components Library
+# IRIS - Front End Components Library 
+
+React + typescript components
