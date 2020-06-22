@@ -1,3 +1,7 @@
 export interface TestComponentProps {
-  theme: "primary" | "secondary";
+  theme: 'primary' | 'secondary';
 }
+
+export type StyleProps = {
+  secondary: boolean;
+};

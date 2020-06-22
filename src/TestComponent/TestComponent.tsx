@@ -1,17 +1,14 @@
-import React from "react";
+import React, { FC } from 'react';
 
-import { TestComponentProps } from "./TestComponent.types";
+import { TestComponentProps } from './TestComponent.types';
 
-import "./TestComponent.scss";
+import { Wrapper, Heading } from './TestComponent.styles';
 
-const TestComponent: React.FC<TestComponentProps> = ({ theme }) => (
-  <div
-    data-testid="test-component"
-    className={`test-component test-component-${theme}`}
-  >
-    <h1 className="heading">I'm the test component</h1>
-    <h2>Made with love by Harvey</h2>
-  </div>
+const TestComponent: FC<TestComponentProps> = ({ theme }) => (
+  <Wrapper data-testid="test-component" secondary={theme === 'secondary'}>
+    <Heading>I'm the test component</Heading>
+    <h2>Iris data driven</h2>
+  </Wrapper>
 );
 
 export default TestComponent;
