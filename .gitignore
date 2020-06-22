@@ -1,3 +1,21 @@
-/node_modules
+# Dependency directories
+node_modules
+jspm_packages
+package-lock.json
+yarn.lock
+yarn-error.log
 
-/build
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Local Env Variables
+.env
+
+# Build directory
+build
+
+# Coverage directory
+coverage
