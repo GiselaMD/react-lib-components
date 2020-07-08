@@ -29,7 +29,8 @@
   "homepage": "https://github.com/iris-data-driven/frontend-components-lib#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react-dom": ">=16.8.0",
+    "styled-components": ">=5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
