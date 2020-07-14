@@ -1,4 +1,4 @@
-# IRIS - Front End Components Library 
+# Front End Components Library using React
 > React components using typescript
 
 - [Rollup](https://github.com/rollup/rollup)

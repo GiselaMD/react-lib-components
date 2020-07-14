@@ -7,7 +7,7 @@ import { Wrapper, Heading } from './TestComponent.styles';
 const TestComponent: FC<TestComponentProps> = ({ theme }) => (
   <Wrapper data-testid="test-component" secondary={theme === 'secondary'}>
     <Heading>I'm the test component</Heading>
-    <h2>Iris data driven</h2>
+    <h2>Gisela Miranda Difini</h2>
   </Wrapper>
 );
 
